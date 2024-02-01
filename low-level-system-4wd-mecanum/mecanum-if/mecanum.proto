@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ControlRequest {
+  required int32 speed_mmps = 1;
+  required float rad = 2;
+  required float omega = 3;
+}
